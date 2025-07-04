@@ -1,0 +1,42 @@
+{
+  "batch_result": {
+    "success": true,
+    "total_videos": 6,
+    "successful_videos": 6,
+    "failed_videos": 0,
+    "total_time": 100.54980683326721,
+    "average_time_per_video": 16.75830113887787,
+    "output_paths": [
+      "output/real_content_anxiety1_var1_1751499585.mp4",
+      "output/real_content_anxiety1_var2_1751499585.mp4",
+      "output/real_content_safe1_var1_1751499622.mp4",
+      "output/real_content_safe1_var2_1751499622.mp4",
+      "output/real_content_miserable1_var1_1751499658.mp4",
+      "output/real_content_miserable1_var2_1751499658.mp4"
+    ],
+    "error_messages": [],
+    "performance_stats": {
+      "generation_rate_videos_per_second": 0.05967191970790422,
+      "average_time_per_video": 16.75830113887787,
+      "success_rate": 1.0,
+      "scripts_processed": 3
+    }
+  },
+  "pipeline_stats": {
+    "pipeline_stats": {
+      "total_videos_generated": 0,
+      "total_processing_time": 0.0,
+      "successful_batches": 0,
+      "failed_batches": 0,
+      "average_video_time": 0.0,
+      "peak_memory_usage_mb": 0.0,
+      "gpu_utilization": 0.0
+    },
+    "configuration": {
+      "max_concurrent_videos": 2,
+      "performance_monitoring": true
+    },
+    "timestamp": "2025-07-02T19:41:26.145266"
+  },
+  "timestamp": "2025-07-02T19:41:26.145270"
+}
