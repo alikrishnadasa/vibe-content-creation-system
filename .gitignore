@@ -62,18 +62,26 @@ cache/
 .cache/
 __pycache__/
 
-# Output directories (you might want to keep some outputs)
-# Uncomment if you don't want to track generated videos
-# output/
-# *.mp4
-# *.mov
-# *.avi
+# Output directories (generated videos are too large for GitHub)
+output/
+unified-video-system/output/
+unified-video-system/temp/
 
-# Audio files (large files - consider using Git LFS)
-# *.wav
-# *.mp3
-# *.m4a
-# *.flac
+# Large video files (use Git LFS for essential ones)
+*.mp4
+*.mov
+*.avi
+
+# Audio files (large files - use Git LFS for essential ones)
+*.wav
+*.mp3
+*.m4a
+*.flac
+
+# Keep essential sample files (override above patterns)
+!sample_*.mp4
+!example_*.wav
+!demo_*.mp3
 
 # API keys and secrets
 .env
