@@ -35,17 +35,19 @@ class ContentDatabase:
                  clips_directory: str,
                  metadata_file: str, 
                  scripts_directory: str,
-                 music_file: str):
+                 music_file: str,
+                 use_unified_metadata: bool = False):
         """
         Initialize the content database
         
         Args:
-            clips_directory: Path to MJAnime clips
+            clips_directory: Path to clips directory (legacy parameter)
             metadata_file: Path to clips metadata JSON
             scripts_directory: Path to audio scripts 
             music_file: Path to music track
+            use_unified_metadata: If True, use unified metadata with multiple sources
         """
-        self.clips_loader = MJAnimeLoader(clips_directory, metadata_file)
+        self.clips_loader = MJAnimeLoader(clips_directory, metadata_file, use_unified_metadata)
         self.scripts_analyzer = AudioScriptAnalyzer(scripts_directory)
         self.music_manager = MusicManager(music_file)
         

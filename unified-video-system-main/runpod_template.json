@@ -1,0 +1,41 @@
+{
+  "name": "Unified Video System",
+  "description": "AI-powered video generation with MJAnime clips, beat sync, and real-time captions",
+  "dockerImageName": "your-dockerhub-username/unified-video-system:latest",
+  "containerDiskInGb": 20,
+  "volumeInGb": 50,
+  "volumeMountPath": "/app/data",
+  "env": [
+    {
+      "key": "CLIPS_DIRECTORY",
+      "value": "/app/data/MJAnime"
+    },
+    {
+      "key": "METADATA_FILE", 
+      "value": "/app/data/MJAnime/metadata_final_clean_shots.json"
+    },
+    {
+      "key": "SCRIPTS_DIRECTORY",
+      "value": "/app/data/scripts"
+    },
+    {
+      "key": "MUSIC_FILE",
+      "value": "/app/music/Beanie (Slowed).mp3"
+    },
+    {
+      "key": "OUTPUT_DIRECTORY",
+      "value": "/app/output"
+    },
+    {
+      "key": "PYTHONPATH",
+      "value": "/app"
+    },
+    {
+      "key": "CUDA_VISIBLE_DEVICES",
+      "value": "0"
+    }
+  ],
+  "startupTimeInSeconds": 60,
+  "ports": "8080/http",
+  "volumeCloudType": "RUNPOD_VOLUME"
+}

@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 
 @dataclass
 class ClipMetadata:
-    """Metadata for a single MJAnime video clip"""
+    """Metadata for a single video clip (MJAnime or other sources)"""
     id: str
     filename: str
     filepath: str
@@ -31,6 +31,7 @@ class ClipMetadata:
     file_size_mb: float
     shot_analysis: Dict[str, Any]
     created_at: str
+    source_type: str = "mjanime"  # Track source: "mjanime" or "midjourney_composite"
     
     # Computed properties for content selection (with defaults)
     emotional_tags: List[str] = None
@@ -82,18 +83,20 @@ class ClipMetadata:
         return emotions if emotions else ['neutral']
 
 class MJAnimeLoader:
-    """Loads and manages MJAnime video clips with intelligent indexing"""
+    """Loads and manages video clips from multiple sources with intelligent indexing"""
     
-    def __init__(self, clips_directory: str, metadata_file: str):
+    def __init__(self, clips_directory: str, metadata_file: str, use_unified_metadata: bool = False):
         """
-        Initialize the MJAnime loader
+        Initialize the clip loader
         
         Args:
-            clips_directory: Path to directory containing MJAnime clips
+            clips_directory: Path to directory containing clips (legacy parameter)
             metadata_file: Path to metadata JSON file
+            use_unified_metadata: If True, load from unified metadata with multiple sources
         """
         self.clips_directory = Path(clips_directory)
         self.metadata_file = Path(metadata_file)
+        self.use_unified_metadata = use_unified_metadata
         self.clips: Dict[str, ClipMetadata] = {}
         self.loaded = False
         
@@ -110,41 +113,84 @@ class MJAnimeLoader:
                 metadata = json.load(f)
             
             clips_data = metadata.get('clips', [])
-            logger.info(f"Loading {len(clips_data)} MJAnime clips...")
             
-            loaded_count = 0
-            for clip_data in clips_data:
-                clip_path = self.clips_directory / clip_data['filename']
-                
-                # Verify file exists
-                if not clip_path.exists():
-                    logger.warning(f"Clip file not found: {clip_path}")
-                    continue
-                
-                # Create clip metadata
-                clip_metadata = ClipMetadata(
-                    id=clip_data['id'],
-                    filename=clip_data['filename'], 
-                    filepath=str(clip_path),
-                    tags=clip_data.get('tags', []),
-                    duration=clip_data.get('duration', 5.21),
-                    resolution=clip_data.get('resolution', '1080x1936'),
-                    fps=clip_data.get('fps', 24.0),
-                    file_size_mb=clip_data.get('file_size_mb', 0),
-                    shot_analysis=clip_data.get('shot_analysis', {}),
-                    created_at=clip_data.get('created_at', '')
-                )
-                
-                self.clips[clip_metadata.id] = clip_metadata
-                loaded_count += 1
+            if self.use_unified_metadata:
+                logger.info(f"Loading {len(clips_data)} clips from unified metadata...")
+                loaded_count = self._load_unified_clips(clips_data)
+            else:
+                logger.info(f"Loading {len(clips_data)} clips from single source...")
+                loaded_count = self._load_single_source_clips(clips_data)
             
             self.loaded = True
-            logger.info(f"✅ Successfully loaded {loaded_count} MJAnime clips")
+            logger.info(f"✅ Successfully loaded {loaded_count} clips")
             return True
             
         except Exception as e:
-            logger.error(f"Failed to load MJAnime clips: {e}")
+            logger.error(f"Failed to load clips: {e}")
             return False
+    
+    def _load_unified_clips(self, clips_data: List[Dict]) -> int:
+        """Load clips from unified metadata with multiple sources"""
+        loaded_count = 0
+        for clip_data in clips_data:
+            # Use file_path from unified metadata which includes full path
+            clip_path = Path(clip_data.get('file_path', ''))
+            
+            # Verify file exists
+            if not clip_path.exists():
+                logger.warning(f"Clip file not found: {clip_path}")
+                continue
+            
+            # Create clip metadata
+            clip_metadata = ClipMetadata(
+                id=clip_data['id'],
+                filename=clip_data['filename'],
+                filepath=str(clip_path),
+                tags=clip_data.get('tags', []),
+                duration=clip_data.get('duration', 5.21),
+                resolution=clip_data.get('resolution', '1080x1936'),
+                fps=clip_data.get('fps', 24.0),
+                file_size_mb=clip_data.get('file_size_mb', 0),
+                shot_analysis=clip_data.get('shot_analysis', {}),
+                created_at=clip_data.get('created_at', ''),
+                source_type=clip_data.get('source_type', 'mjanime')
+            )
+            
+            self.clips[clip_metadata.id] = clip_metadata
+            loaded_count += 1
+        
+        return loaded_count
+    
+    def _load_single_source_clips(self, clips_data: List[Dict]) -> int:
+        """Load clips from single source (legacy behavior)"""
+        loaded_count = 0
+        for clip_data in clips_data:
+            clip_path = self.clips_directory / clip_data['filename']
+            
+            # Verify file exists
+            if not clip_path.exists():
+                logger.warning(f"Clip file not found: {clip_path}")
+                continue
+            
+            # Create clip metadata
+            clip_metadata = ClipMetadata(
+                id=clip_data['id'],
+                filename=clip_data['filename'],
+                filepath=str(clip_path),
+                tags=clip_data.get('tags', []),
+                duration=clip_data.get('duration', 5.21),
+                resolution=clip_data.get('resolution', '1080x1936'),
+                fps=clip_data.get('fps', 24.0),
+                file_size_mb=clip_data.get('file_size_mb', 0),
+                shot_analysis=clip_data.get('shot_analysis', {}),
+                created_at=clip_data.get('created_at', ''),
+                source_type='mjanime'
+            )
+            
+            self.clips[clip_metadata.id] = clip_metadata
+            loaded_count += 1
+        
+        return loaded_count
     
     def get_clips_by_emotion(self, emotion: str) -> List[ClipMetadata]:
         """
@@ -181,6 +227,26 @@ class MJAnimeLoader:
         
         return [clip for clip in self.clips.values() 
                 if clip.movement_type == movement_type]
+    
+    def get_clips_by_source(self, source_type: str) -> List[ClipMetadata]:
+        """Get clips from specific source"""
+        if not self.loaded:
+            raise RuntimeError("Clips not loaded. Call load_clips() first.")
+        
+        return [clip for clip in self.clips.values() 
+                if clip.source_type == source_type]
+    
+    def get_source_stats(self) -> Dict[str, Any]:
+        """Get statistics by source type"""
+        if not self.loaded:
+            raise RuntimeError("Clips not loaded. Call load_clips() first.")
+        
+        source_counts = {}
+        for clip in self.clips.values():
+            source = clip.source_type
+            source_counts[source] = source_counts.get(source, 0) + 1
+        
+        return source_counts
     
     def search_clips_by_tags(self, search_tags: List[str]) -> List[Tuple[ClipMetadata, float]]:
         """

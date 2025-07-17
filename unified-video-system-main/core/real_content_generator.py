@@ -305,7 +305,20 @@ class RealContentGenerator:
                 return caption_data
             else:
                 logger.warning(f"Pregenerated captions not found: {cache_filename}")
-                # Fallback to old method
+                
+                # Try fallback to 'default' style if 'tiktok' not available
+                if style != 'default':
+                    fallback_filename = f"{script_name}_default_captions.json"
+                    fallback_path = caption_cache_dir / fallback_filename
+                    
+                    if fallback_path.exists():
+                        import json
+                        with open(fallback_path, 'r') as f:
+                            caption_data = json.load(f)
+                        logger.info(f"✅ Using fallback: Loaded {len(caption_data['captions'])} default captions for {script_name}")
+                        return caption_data
+                
+                # Final fallback to old method
                 return await self._generate_captions_fallback(script_analysis, sequence, style)
             
         except Exception as e:

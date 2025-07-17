@@ -1,0 +1,1262 @@
+{
+  "analysis_timestamp": "2025-07-05T18:22:50.548289",
+  "total_clips_analyzed": 25,
+  "scripts_tested": 5,
+  "results": [
+    {
+      "script_name": "Peaceful Meditation",
+      "script_text": "A devotee sits in peaceful meditation by a tranquil waterfall, finding inner serenity",
+      "keywords": [
+        "peaceful",
+        "meditation",
+        "devotee",
+        "tranquil",
+        "waterfall",
+        "serenity"
+      ],
+      "clip_analyses": [
+        {
+          "rank": 1,
+          "initial_match_score": 0.5,
+          "matching_tags": [
+            "peaceful",
+            "meditation",
+            "devotee"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_A_devotee_floats_cross-legged_underwater_eyes_clo_6d94824c-858a-4c64-a797-0a1fd0ef321e_1_fixed.mp4",
+            "themes": [
+              "peaceful",
+              "spiritual"
+            ],
+            "mood": "serene",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "deep",
+              "spiritual",
+              "mystical",
+              "centered",
+              "religious"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 5.48
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.30000000000000004,
+            "keyword_matches": [],
+            "thematic_alignment": {
+              "clip_themes": [
+                "peaceful",
+                "spiritual"
+              ],
+              "clip_mood": "serene"
+            },
+            "recommendation_level": "low"
+          }
+        },
+        {
+          "rank": 2,
+          "initial_match_score": 0.5,
+          "matching_tags": [
+            "peaceful",
+            "meditation",
+            "devotee"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_A_devotee_floats_cross-legged_underwater_eyes_clo_946dc6e2-82bc-4834-ba6e-41f778d03605_2_fixed.mp4",
+            "themes": [
+              "peaceful",
+              "spiritual"
+            ],
+            "mood": "serene",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "deep",
+              "spiritual",
+              "mystical",
+              "centered",
+              "religious"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 3.87
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.30000000000000004,
+            "keyword_matches": [],
+            "thematic_alignment": {
+              "clip_themes": [
+                "peaceful",
+                "spiritual"
+              ],
+              "clip_mood": "serene"
+            },
+            "recommendation_level": "low"
+          }
+        },
+        {
+          "rank": 3,
+          "initial_match_score": 0.5,
+          "matching_tags": [
+            "peaceful",
+            "meditation",
+            "devotee"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_A_devotee_floats_cross-legged_underwater_eyes_clo_b14ca49b-2edc-4945-a842-374005ffa8b8_2_fixed.mp4",
+            "themes": [
+              "peaceful",
+              "spiritual"
+            ],
+            "mood": "serene",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "deep",
+              "spiritual",
+              "mystical",
+              "centered",
+              "religious"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 3.43
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.30000000000000004,
+            "keyword_matches": [],
+            "thematic_alignment": {
+              "clip_themes": [
+                "peaceful",
+                "spiritual"
+              ],
+              "clip_mood": "serene"
+            },
+            "recommendation_level": "low"
+          }
+        },
+        {
+          "rank": 4,
+          "initial_match_score": 0.5,
+          "matching_tags": [
+            "peaceful",
+            "meditation",
+            "devotee"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_A_saffron-robed_devotee_sits_cross-legged_on_a_fl_45b22ad5-2619-4bab-ac53-98f8e37b5d69_0_fixed.mp4",
+            "themes": [
+              "peaceful",
+              "spiritual"
+            ],
+            "mood": "serene",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "spiritual",
+              "centered",
+              "religious",
+              "peaceful",
+              "meditation"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 3.46
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.6333333333333333,
+            "keyword_matches": [
+              [
+                "peaceful",
+                "peaceful"
+              ],
+              [
+                "meditation",
+                "meditation"
+              ]
+            ],
+            "thematic_alignment": {
+              "clip_themes": [
+                "peaceful",
+                "spiritual"
+              ],
+              "clip_mood": "serene"
+            },
+            "recommendation_level": "medium"
+          }
+        },
+        {
+          "rank": 5,
+          "initial_match_score": 0.5,
+          "matching_tags": [
+            "peaceful",
+            "meditation",
+            "devotee"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_A_saffron-robed_devotee_sits_cross-legged_on_a_fl_56bfcca6-48d8-40dc-850c-c53b18f45b06_2_fixed.mp4",
+            "themes": [
+              "peaceful",
+              "spiritual"
+            ],
+            "mood": "serene",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "spiritual",
+              "centered",
+              "religious",
+              "peaceful",
+              "meditation"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 3.96
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.6333333333333333,
+            "keyword_matches": [
+              [
+                "peaceful",
+                "peaceful"
+              ],
+              [
+                "meditation",
+                "meditation"
+              ]
+            ],
+            "thematic_alignment": {
+              "clip_themes": [
+                "peaceful",
+                "spiritual"
+              ],
+              "clip_mood": "serene"
+            },
+            "recommendation_level": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "script_name": "Spiritual Journey",
+      "script_text": "Walking barefoot along a sacred path, chanting mantras with spiritual devotion",
+      "keywords": [
+        "walking",
+        "barefoot",
+        "sacred",
+        "chanting",
+        "spiritual",
+        "devotional"
+      ],
+      "clip_analyses": [
+        {
+          "rank": 1,
+          "initial_match_score": 0.6666666666666666,
+          "matching_tags": [
+            "walking",
+            "sacred",
+            "spiritual",
+            "devotional"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_A_devotee_chants_while_walking_barefoot_along_a_w_08ee1df4-116c-40d8-9bb5-f61fbc1c78fe_3_fixed.mp4",
+            "themes": [
+              "spiritual"
+            ],
+            "mood": "neutral",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "walking",
+              "sacred",
+              "humble",
+              "spiritual",
+              "grounded"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 5.77
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.7,
+            "keyword_matches": [
+              [
+                "walking",
+                "walking"
+              ],
+              [
+                "sacred",
+                "sacred"
+              ],
+              [
+                "spiritual",
+                "spiritual"
+              ]
+            ],
+            "thematic_alignment": {
+              "clip_themes": [
+                "spiritual"
+              ],
+              "clip_mood": "neutral"
+            },
+            "recommendation_level": "high"
+          }
+        },
+        {
+          "rank": 2,
+          "initial_match_score": 0.6666666666666666,
+          "matching_tags": [
+            "walking",
+            "sacred",
+            "spiritual",
+            "devotional"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_A_devotee_chants_while_walking_barefoot_along_a_w_0b99080d-f1df-4654-94f5-118059a1eb9d_2_fixed.mp4",
+            "themes": [
+              "spiritual"
+            ],
+            "mood": "neutral",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "walking",
+              "sacred",
+              "humble",
+              "spiritual",
+              "grounded"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 4.65
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.7,
+            "keyword_matches": [
+              [
+                "walking",
+                "walking"
+              ],
+              [
+                "sacred",
+                "sacred"
+              ],
+              [
+                "spiritual",
+                "spiritual"
+              ]
+            ],
+            "thematic_alignment": {
+              "clip_themes": [
+                "spiritual"
+              ],
+              "clip_mood": "neutral"
+            },
+            "recommendation_level": "high"
+          }
+        },
+        {
+          "rank": 3,
+          "initial_match_score": 0.6666666666666666,
+          "matching_tags": [
+            "walking",
+            "sacred",
+            "spiritual",
+            "devotional"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_A_devotee_chants_while_walking_barefoot_along_a_w_82230752-3f3e-48e7-8663-cea2ae9215f8_0_fixed.mp4",
+            "themes": [
+              "spiritual"
+            ],
+            "mood": "neutral",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "walking",
+              "sacred",
+              "humble",
+              "spiritual",
+              "grounded"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 7.08
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.7,
+            "keyword_matches": [
+              [
+                "walking",
+                "walking"
+              ],
+              [
+                "sacred",
+                "sacred"
+              ],
+              [
+                "spiritual",
+                "spiritual"
+              ]
+            ],
+            "thematic_alignment": {
+              "clip_themes": [
+                "spiritual"
+              ],
+              "clip_mood": "neutral"
+            },
+            "recommendation_level": "high"
+          }
+        },
+        {
+          "rank": 4,
+          "initial_match_score": 0.6666666666666666,
+          "matching_tags": [
+            "walking",
+            "sacred",
+            "spiritual",
+            "devotional"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_A_devotee_chants_while_walking_barefoot_along_a_w_86b46695-57af-4aae-9e45-fe3bbc16b8a2_1 (1)_fixed.mp4",
+            "themes": [
+              "spiritual"
+            ],
+            "mood": "neutral",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "walking",
+              "sacred",
+              "humble",
+              "spiritual",
+              "grounded"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 6.0
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.7,
+            "keyword_matches": [
+              [
+                "walking",
+                "walking"
+              ],
+              [
+                "sacred",
+                "sacred"
+              ],
+              [
+                "spiritual",
+                "spiritual"
+              ]
+            ],
+            "thematic_alignment": {
+              "clip_themes": [
+                "spiritual"
+              ],
+              "clip_mood": "neutral"
+            },
+            "recommendation_level": "high"
+          }
+        },
+        {
+          "rank": 5,
+          "initial_match_score": 0.6666666666666666,
+          "matching_tags": [
+            "walking",
+            "sacred",
+            "spiritual",
+            "devotional"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_A_devotee_chants_while_walking_barefoot_along_a_w_86b46695-57af-4aae-9e45-fe3bbc16b8a2_1_fixed.mp4",
+            "themes": [
+              "spiritual"
+            ],
+            "mood": "neutral",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "walking",
+              "sacred",
+              "humble",
+              "spiritual",
+              "grounded"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 6.0
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.7,
+            "keyword_matches": [
+              [
+                "walking",
+                "walking"
+              ],
+              [
+                "sacred",
+                "sacred"
+              ],
+              [
+                "spiritual",
+                "spiritual"
+              ]
+            ],
+            "thematic_alignment": {
+              "clip_themes": [
+                "spiritual"
+              ],
+              "clip_mood": "neutral"
+            },
+            "recommendation_level": "high"
+          }
+        }
+      ]
+    },
+    {
+      "script_name": "Natural Contemplation",
+      "script_text": "In a quiet garden, surrounded by nature's beauty, deep contemplation unfolds",
+      "keywords": [
+        "quiet",
+        "garden",
+        "nature",
+        "contemplation",
+        "peaceful",
+        "natural"
+      ],
+      "clip_analyses": [
+        {
+          "rank": 1,
+          "initial_match_score": 0.3333333333333333,
+          "matching_tags": [
+            "garden",
+            "nature"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_In_a_magical_garden_brimming_with_tulasi_flowerin_71da5d8d-19cf-45b7-ae1a-0b65493df9d7_2_fixed.mp4",
+            "themes": [
+              "natural"
+            ],
+            "mood": "neutral",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "flower",
+              "garden",
+              "nature"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 3.39
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.3333333333333333,
+            "keyword_matches": [
+              [
+                "garden",
+                "garden"
+              ],
+              [
+                "nature",
+                "nature"
+              ]
+            ],
+            "thematic_alignment": {
+              "clip_themes": [
+                "natural"
+              ],
+              "clip_mood": "neutral"
+            },
+            "recommendation_level": "low"
+          }
+        },
+        {
+          "rank": 2,
+          "initial_match_score": 0.3333333333333333,
+          "matching_tags": [
+            "garden",
+            "nature"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_In_a_magical_garden_brimming_with_tulasi_flowerin_d31c55d6-3485-41c5-90e6-10454fbec8dd_0_fixed.mp4",
+            "themes": [
+              "natural"
+            ],
+            "mood": "neutral",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "flower",
+              "garden",
+              "nature"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 9.67
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.3333333333333333,
+            "keyword_matches": [
+              [
+                "garden",
+                "garden"
+              ],
+              [
+                "nature",
+                "nature"
+              ]
+            ],
+            "thematic_alignment": {
+              "clip_themes": [
+                "natural"
+              ],
+              "clip_mood": "neutral"
+            },
+            "recommendation_level": "low"
+          }
+        },
+        {
+          "rank": 3,
+          "initial_match_score": 0.3333333333333333,
+          "matching_tags": [
+            "garden",
+            "nature"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_In_a_magical_garden_brimming_with_tulasi_flowerin_d31c55d6-3485-41c5-90e6-10454fbec8dd_3_fixed.mp4",
+            "themes": [
+              "natural"
+            ],
+            "mood": "neutral",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "flower",
+              "garden",
+              "nature"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 4.25
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.3333333333333333,
+            "keyword_matches": [
+              [
+                "garden",
+                "garden"
+              ],
+              [
+                "nature",
+                "nature"
+              ]
+            ],
+            "thematic_alignment": {
+              "clip_themes": [
+                "natural"
+              ],
+              "clip_mood": "neutral"
+            },
+            "recommendation_level": "low"
+          }
+        },
+        {
+          "rank": 4,
+          "initial_match_score": 0.3333333333333333,
+          "matching_tags": [
+            "garden",
+            "nature"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_In_a_vibrant_flower_garden_filled_with_hollyhocks_29a9260f-7153-4feb-a4c0-431e7e68fbb8_0_fixed.mp4",
+            "themes": [
+              "natural"
+            ],
+            "mood": "neutral",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "flower",
+              "garden",
+              "nature"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 3.32
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.3333333333333333,
+            "keyword_matches": [
+              [
+                "garden",
+                "garden"
+              ],
+              [
+                "nature",
+                "nature"
+              ]
+            ],
+            "thematic_alignment": {
+              "clip_themes": [
+                "natural"
+              ],
+              "clip_mood": "neutral"
+            },
+            "recommendation_level": "low"
+          }
+        },
+        {
+          "rank": 5,
+          "initial_match_score": 0.3333333333333333,
+          "matching_tags": [
+            "garden",
+            "nature"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_In_a_vibrant_flower_garden_filled_with_hollyhocks_9b3d1336-0905-4bfb-8629-94c920e31534_3_fixed.mp4",
+            "themes": [
+              "natural"
+            ],
+            "mood": "neutral",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "flower",
+              "garden",
+              "nature"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 4.7
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.3333333333333333,
+            "keyword_matches": [
+              [
+                "garden",
+                "garden"
+              ],
+              [
+                "nature",
+                "nature"
+              ]
+            ],
+            "thematic_alignment": {
+              "clip_themes": [
+                "natural"
+              ],
+              "clip_mood": "neutral"
+            },
+            "recommendation_level": "low"
+          }
+        }
+      ]
+    },
+    {
+      "script_name": "Temple Worship",
+      "script_text": "Inside a sacred temple, devotees offer prayers with reverent hearts",
+      "keywords": [
+        "temple",
+        "sacred",
+        "devotees",
+        "prayers",
+        "reverent",
+        "spiritual"
+      ],
+      "clip_analyses": [
+        {
+          "rank": 1,
+          "initial_match_score": 0.5,
+          "matching_tags": [
+            "temple",
+            "sacred",
+            "spiritual"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_Devotees_decorate_a_spirit-filled_temple_courtyar_4f676e6e-5fec-4d02-a9c4-e6f867f6cccb_0_fixed.mp4",
+            "themes": [
+              "spiritual"
+            ],
+            "mood": "neutral",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "sacred",
+              "spiritual",
+              "religious",
+              "temple",
+              "devotee"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 12.21
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.8666666666666667,
+            "keyword_matches": [
+              [
+                "temple",
+                "temple"
+              ],
+              [
+                "sacred",
+                "sacred"
+              ],
+              [
+                "devotees",
+                "devotee"
+              ],
+              [
+                "spiritual",
+                "spiritual"
+              ]
+            ],
+            "thematic_alignment": {
+              "clip_themes": [
+                "spiritual"
+              ],
+              "clip_mood": "neutral"
+            },
+            "recommendation_level": "high"
+          }
+        },
+        {
+          "rank": 2,
+          "initial_match_score": 0.5,
+          "matching_tags": [
+            "temple",
+            "sacred",
+            "spiritual"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_Devotees_decorate_a_spirit-filled_temple_courtyar_8f5859da-34b2-4820-ada9-d498a00cd5f4_1_fixed.mp4",
+            "themes": [
+              "spiritual"
+            ],
+            "mood": "neutral",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "sacred",
+              "spiritual",
+              "religious",
+              "temple",
+              "devotee"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 8.12
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.8666666666666667,
+            "keyword_matches": [
+              [
+                "temple",
+                "temple"
+              ],
+              [
+                "sacred",
+                "sacred"
+              ],
+              [
+                "devotees",
+                "devotee"
+              ],
+              [
+                "spiritual",
+                "spiritual"
+              ]
+            ],
+            "thematic_alignment": {
+              "clip_themes": [
+                "spiritual"
+              ],
+              "clip_mood": "neutral"
+            },
+            "recommendation_level": "high"
+          }
+        },
+        {
+          "rank": 3,
+          "initial_match_score": 0.5,
+          "matching_tags": [
+            "temple",
+            "sacred",
+            "spiritual"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_Devotees_decorate_a_spirit-filled_temple_courtyar_f8ec0b69-fa2d-4173-9f5e-c4f53f90c311_2_fixed.mp4",
+            "themes": [
+              "spiritual"
+            ],
+            "mood": "neutral",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "sacred",
+              "spiritual",
+              "religious",
+              "temple",
+              "devotee"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 7.81
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.8666666666666667,
+            "keyword_matches": [
+              [
+                "temple",
+                "temple"
+              ],
+              [
+                "sacred",
+                "sacred"
+              ],
+              [
+                "devotees",
+                "devotee"
+              ],
+              [
+                "spiritual",
+                "spiritual"
+              ]
+            ],
+            "thematic_alignment": {
+              "clip_themes": [
+                "spiritual"
+              ],
+              "clip_mood": "neutral"
+            },
+            "recommendation_level": "high"
+          }
+        },
+        {
+          "rank": 4,
+          "initial_match_score": 0.5,
+          "matching_tags": [
+            "temple",
+            "sacred",
+            "spiritual"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_Inside_a_floating_spirit_temple_filled_with_scrol_05be25f1-0de8-4899-8e24-ea87e2b0e6bf_3_fixed.mp4",
+            "themes": [
+              "spiritual"
+            ],
+            "mood": "neutral",
+            "lighting": "natural",
+            "movement": "dynamic",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "sacred",
+              "spiritual",
+              "floating",
+              "temple",
+              "float"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 6.94
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.7,
+            "keyword_matches": [
+              [
+                "temple",
+                "temple"
+              ],
+              [
+                "sacred",
+                "sacred"
+              ],
+              [
+                "spiritual",
+                "spiritual"
+              ]
+            ],
+            "thematic_alignment": {
+              "clip_themes": [
+                "spiritual"
+              ],
+              "clip_mood": "neutral"
+            },
+            "recommendation_level": "high"
+          }
+        },
+        {
+          "rank": 5,
+          "initial_match_score": 0.5,
+          "matching_tags": [
+            "temple",
+            "sacred",
+            "spiritual"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_Inside_a_floating_spirit_temple_filled_with_scrol_1ac3ead5-58ad-4796-956b-f33556e5c7d2_0_fixed.mp4",
+            "themes": [
+              "spiritual"
+            ],
+            "mood": "neutral",
+            "lighting": "natural",
+            "movement": "dynamic",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "sacred",
+              "spiritual",
+              "floating",
+              "temple",
+              "float"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 6.71
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.7,
+            "keyword_matches": [
+              [
+                "temple",
+                "temple"
+              ],
+              [
+                "sacred",
+                "sacred"
+              ],
+              [
+                "spiritual",
+                "spiritual"
+              ]
+            ],
+            "thematic_alignment": {
+              "clip_themes": [
+                "spiritual"
+              ],
+              "clip_mood": "neutral"
+            },
+            "recommendation_level": "high"
+          }
+        }
+      ]
+    },
+    {
+      "script_name": "Mountain Solitude",
+      "script_text": "Alone on a mountain cliff, finding wisdom in solitary reflection",
+      "keywords": [
+        "mountain",
+        "cliff",
+        "alone",
+        "solitary",
+        "reflection",
+        "wisdom"
+      ],
+      "clip_analyses": [
+        {
+          "rank": 1,
+          "initial_match_score": 0.16666666666666666,
+          "matching_tags": [
+            "mountain"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_A_crystal-clear_mountain_stream_runs_between_smoo_3182820f-7261-48c5-b7c1-92f5acfa9e2f_0_fixed.mp4",
+            "themes": [
+              "natural"
+            ],
+            "mood": "neutral",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "elevated",
+              "mountain",
+              "peak"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 4.01
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.16666666666666666,
+            "keyword_matches": [
+              [
+                "mountain",
+                "mountain"
+              ]
+            ],
+            "thematic_alignment": {
+              "clip_themes": [
+                "natural"
+              ],
+              "clip_mood": "neutral"
+            },
+            "recommendation_level": "low"
+          }
+        },
+        {
+          "rank": 2,
+          "initial_match_score": 0.16666666666666666,
+          "matching_tags": [
+            "mountain"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_A_crystal-clear_mountain_stream_runs_between_smoo_3ec5f742-5cc1-4f58-856a-ffc699dfb9b1_0_fixed.mp4",
+            "themes": [
+              "natural"
+            ],
+            "mood": "neutral",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "elevated",
+              "mountain",
+              "peak"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 2.72
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.16666666666666666,
+            "keyword_matches": [
+              [
+                "mountain",
+                "mountain"
+              ]
+            ],
+            "thematic_alignment": {
+              "clip_themes": [
+                "natural"
+              ],
+              "clip_mood": "neutral"
+            },
+            "recommendation_level": "low"
+          }
+        },
+        {
+          "rank": 3,
+          "initial_match_score": 0.16666666666666666,
+          "matching_tags": [
+            "mountain"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_A_crystal-clear_mountain_stream_runs_between_smoo_43d8978d-e9d0-46ed-91c1-91919a98b154_0_fixed.mp4",
+            "themes": [
+              "natural"
+            ],
+            "mood": "neutral",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "elevated",
+              "mountain",
+              "peak"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 5.32
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.16666666666666666,
+            "keyword_matches": [
+              [
+                "mountain",
+                "mountain"
+              ]
+            ],
+            "thematic_alignment": {
+              "clip_themes": [
+                "natural"
+              ],
+              "clip_mood": "neutral"
+            },
+            "recommendation_level": "low"
+          }
+        },
+        {
+          "rank": 4,
+          "initial_match_score": 0.16666666666666666,
+          "matching_tags": [
+            "mountain"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_A_crystal-clear_mountain_stream_runs_between_smoo_cfaa7e44-91dd-49ad-a2e9-2fb542dc1461_0_fixed.mp4",
+            "themes": [
+              "natural"
+            ],
+            "mood": "neutral",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "elevated",
+              "mountain",
+              "peak"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 4.25
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.16666666666666666,
+            "keyword_matches": [
+              [
+                "mountain",
+                "mountain"
+              ]
+            ],
+            "thematic_alignment": {
+              "clip_themes": [
+                "natural"
+              ],
+              "clip_mood": "neutral"
+            },
+            "recommendation_level": "low"
+          }
+        },
+        {
+          "rank": 5,
+          "initial_match_score": 0.16666666666666666,
+          "matching_tags": [
+            "cliff"
+          ],
+          "clip_analysis": {
+            "filename": "social_u1875146414_A_dramatic_anime-style_cliffside_overlooking_the__d53f1e29-ce5c-42d0-bc68-bd39bf1ac7e5_1_fixed.mp4",
+            "themes": [],
+            "mood": "neutral",
+            "lighting": "natural",
+            "movement": "gentle",
+            "shot_type": "medium_shot",
+            "primary_tags": [
+              "dramatic",
+              "high",
+              "cliff"
+            ],
+            "duration": 5.21,
+            "file_size_mb": 4.42
+          },
+          "script_compatibility": {
+            "compatibility_score": 0.16666666666666666,
+            "keyword_matches": [
+              [
+                "cliff",
+                "cliff"
+              ]
+            ],
+            "thematic_alignment": {
+              "clip_themes": [],
+              "clip_mood": "neutral"
+            },
+            "recommendation_level": "low"
+          }
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "high_compatibility_clips": 10,
+    "success_rate": 0.4
+  }
+}

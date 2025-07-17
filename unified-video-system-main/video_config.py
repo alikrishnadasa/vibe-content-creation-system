@@ -17,10 +17,10 @@ class VideoConfig:
     """
     
     # Directory paths - extracted from generate_single_video.py
-    clips_directory: str = "/Users/jamesguo/vibe-content-creation/MJAnime"
-    metadata_file: str = "MJAnime/metadata_final_clean_shots.json"
+    clips_directory: str = "/Users/jamesguo/vibe-content-creation/MJAnime/fixed"
+    metadata_file: str = "/Users/jamesguo/vibe-content-creation/MJAnime/mjanime_metadata.json"
     scripts_directory: str = "/Users/jamesguo/vibe-content-creation/11-scripts-for-tiktok"
-    music_file: str = "unified-video-system-main/music/Beanie (Slowed).mp3"
+    music_file: str = "/Users/jamesguo/vibe-content-creation/unified-video-system-main/music/Beanie (Slowed).mp3"
     output_directory: str = "/Users/jamesguo/vibe-content-creation/unified-video-system-main/output"
     
     # Caption cache directory - modular support for any folder

@@ -687,7 +687,7 @@ class UnifiedQuantumPipeline:
         try:
             console.print(f"[cyan]Generating real content video: {script_name} variation {variation_number}[/cyan]")
             
-            # Create real video request
+            # Create real video request with proper caption integration
             from core.real_content_generator import RealVideoRequest
             request = RealVideoRequest(
                 script_path=f"../11-scripts-for-tiktok/{script_name}.wav",
@@ -695,7 +695,8 @@ class UnifiedQuantumPipeline:
                 variation_number=variation_number,
                 caption_style=caption_style,
                 music_sync=True,
-                output_path=output_path
+                output_path=output_path,
+                burn_in_captions=True  # Enable caption burning like generate_batch_videos.py
             )
             
             # Generate video using real content generator

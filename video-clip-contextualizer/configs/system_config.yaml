@@ -1,0 +1,42 @@
+clip_duration:
+  min: 0.5
+  max: 30.0
+  default: 5.0
+  overlap: 0.5
+
+processing:
+  batch_size: 32
+  max_parallel: 100
+  cache_ttl: 3600
+  device: "cuda"
+  precision: "fp16"
+
+models:
+  video_encoder: "openai/clip-vit-large-patch14"
+  text_encoder: "sentence-transformers/all-MiniLM-L6-v2"
+  blip2_model: "Salesforce/blip2-opt-2.7b"
+  device: "cuda"
+  optimization: "tensorrt"
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+  workers: 4
+  timeout: 300
+  max_file_size: 500000000  # 500MB
+
+storage:
+  temp_dir: "/tmp/video_contextualizer"
+  cache_dir: "/tmp/video_contextualizer/cache"
+  max_storage_mb: 10000
+
+performance:
+  target_accuracy: 0.85
+  max_processing_time_ms: 500
+  gpu_utilization_target: 0.8
+  memory_limit_gb: 16
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/contextualizer.log"

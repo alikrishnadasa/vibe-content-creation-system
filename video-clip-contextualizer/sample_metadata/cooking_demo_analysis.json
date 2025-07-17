@@ -1,0 +1,146 @@
+{
+  "video_file": "/path/to/your/video/folder/cooking_demo.mp4",
+  "video_name": "cooking_demo.mp4",
+  "processed": true,
+  "timestamp": "2025-01-05T14:30:35.123456",
+  "processing_time": 12.4,
+  "video_info": {
+    "duration": 30.0,
+    "segments_count": 6,
+    "file_size": 15728640
+  },
+  "script_info": {
+    "character_count": 245,
+    "segments_count": 4
+  },
+  "matching": {
+    "strategy": "optimal",
+    "matches_found": 5,
+    "metrics": {
+      "avg_confidence": 0.847,
+      "high_confidence_ratio": 0.6,
+      "total_matches": 5,
+      "min_confidence": 0.623,
+      "max_confidence": 0.934,
+      "std_confidence": 0.118
+    }
+  },
+  "matches": [
+    {
+      "video_segment": {
+        "start": 0.0,
+        "end": 5.0
+      },
+      "text_segment": {
+        "start": 0,
+        "end": 45,
+        "text": "Chef begins by washing fresh vegetables under"
+      },
+      "confidence": 0.934,
+      "explanation": {
+        "match_type": "high_confidence",
+        "video_duration": 5.0,
+        "text_length": 45,
+        "text_preview": "Chef begins by washing fresh vegetables under",
+        "keywords": ["chef", "washing", "vegetables", "fresh"],
+        "temporal_alignment": {
+          "video_position": 0.0,
+          "text_position": 0.0
+        }
+      }
+    },
+    {
+      "video_segment": {
+        "start": 4.5,
+        "end": 9.5
+      },
+      "text_segment": {
+        "start": 46,
+        "end": 89,
+        "text": "cold running water in the kitchen sink"
+      },
+      "confidence": 0.823,
+      "explanation": {
+        "match_type": "high_confidence",
+        "video_duration": 5.0,
+        "text_length": 43,
+        "text_preview": "cold running water in the kitchen sink",
+        "keywords": ["water", "kitchen", "sink", "running"],
+        "temporal_alignment": {
+          "video_position": 0.15,
+          "text_position": 0.187
+        }
+      }
+    },
+    {
+      "video_segment": {
+        "start": 9.0,
+        "end": 14.0
+      },
+      "text_segment": {
+        "start": 90,
+        "end": 135,
+        "text": "Next, the carrots are peeled with a sharp knife"
+      },
+      "confidence": 0.891,
+      "explanation": {
+        "match_type": "high_confidence",
+        "video_duration": 5.0,
+        "text_length": 47,
+        "text_preview": "Next, the carrots are peeled with a sharp knife",
+        "keywords": ["carrots", "peeled", "knife", "sharp"],
+        "temporal_alignment": {
+          "video_position": 0.3,
+          "text_position": 0.367
+        }
+      }
+    },
+    {
+      "video_segment": {
+        "start": 13.5,
+        "end": 18.5
+      },
+      "text_segment": {
+        "start": 136,
+        "end": 180,
+        "text": "and then chopped into small uniform pieces"
+      },
+      "confidence": 0.756,
+      "explanation": {
+        "match_type": "medium_confidence",
+        "video_duration": 5.0,
+        "text_length": 44,
+        "text_preview": "and then chopped into small uniform pieces",
+        "keywords": ["chopped", "small", "pieces", "uniform"],
+        "temporal_alignment": {
+          "video_position": 0.45,
+          "text_position": 0.555
+        }
+      }
+    },
+    {
+      "video_segment": {
+        "start": 18.0,
+        "end": 23.0
+      },
+      "text_segment": {
+        "start": 181,
+        "end": 245,
+        "text": "Finally, the ingredients are placed in a hot pan for cooking"
+      },
+      "confidence": 0.623,
+      "explanation": {
+        "match_type": "medium_confidence",
+        "video_duration": 5.0,
+        "text_length": 64,
+        "text_preview": "Finally, the ingredients are placed in a hot pan for cooking",
+        "keywords": ["ingredients", "pan", "hot", "cooking"],
+        "temporal_alignment": {
+          "video_position": 0.6,
+          "text_position": 0.738
+        }
+      }
+    }
+  ],
+  "file_hash": "a1b2c3d4e5f6789012345678901234567890abcdef1234567890abcdef123456"
+}

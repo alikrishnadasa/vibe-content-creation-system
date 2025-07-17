@@ -103,14 +103,14 @@ class CaptionPresetManager:
             # DEFAULT PRESET - Your specification
             "default": CaptionStyle(
                 font_family="HelveticaTextNow-ExtraBold",
-                font_size=18,
+                font_size=12,
                 font_color="white",
                 display_mode=CaptionDisplayMode.ONE_WORD,
                 position=CaptionPosition.CENTER,
                 blur_background=True,
-                shadow_offset=(0, 0),
-                shadow_blur=18,
-                shadow_opacity=0.85
+                shadow_offset=(0, -10),
+                shadow_blur=28,
+                shadow_opacity=0.95
             ),
             
             # YouTube style

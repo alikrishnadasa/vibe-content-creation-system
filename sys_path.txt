@@ -1,0 +1,8 @@
+/Users/jamesguo/vibe-content-creation
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python312.zip
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload
+/Users/jamesguo/Library/Python/3.12/lib/python/site-packages
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages
+/Users/jamesguo/vibe-content-creation/video-clip-contextualizer/src
+/Users/jamesguo/vibe-content-creation/unified-video-system-main

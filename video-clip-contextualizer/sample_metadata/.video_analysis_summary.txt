@@ -1,0 +1,41 @@
+VIDEO CLIP CONTEXTUALIZER - BATCH ANALYSIS REPORT
+============================================================
+
+Analysis Date: 2025-01-05T14:31:07.876543
+Total Videos: 3
+Processed: 3
+Skipped: 0
+Failed: 0
+Success Rate: 100.0%
+Total Processing Time: 45.7s
+
+Configuration:
+  Clip Duration: 5.0s
+  Overlap: 0.5s
+  Metadata Saved: True
+
+Summary Statistics:
+  Total Matches: 14
+  Average Matches per Video: 4.7
+  Average Confidence: 0.701
+  Average Processing Time: 15.23s
+
+Best Match: cooking_demo.mp4 (0.847)
+Worst Match: nature_walk.mp4 (0.512)
+
+Individual Results:
+----------------------------------------
+cooking_demo.mp4:
+  Matches: 5
+  Avg Confidence: 0.847
+  Processing Time: 12.40s
+
+nature_walk.mp4:
+  Matches: 3
+  Avg Confidence: 0.512
+  Processing Time: 18.20s
+
+workout_session.mp4:
+  Matches: 6
+  Avg Confidence: 0.743
+  Processing Time: 15.10s

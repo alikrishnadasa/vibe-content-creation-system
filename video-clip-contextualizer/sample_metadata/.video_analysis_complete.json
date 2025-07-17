@@ -1,0 +1,476 @@
+{
+  "batch_info": {
+    "total_videos": 3,
+    "processed_videos": 3,
+    "skipped_videos": 0,
+    "failed_videos": 0,
+    "success_rate": 1.0,
+    "total_processing_time": 45.7,
+    "start_time": "2025-01-05T14:30:22.123456",
+    "end_time": "2025-01-05T14:31:07.876543"
+  },
+  "configuration": {
+    "clip_duration": 5.0,
+    "overlap": 0.5,
+    "save_metadata": true,
+    "metadata_dir": "/path/to/your/video/folder",
+    "cleanup_temp": true
+  },
+  "results": {
+    "/path/to/your/video/folder/cooking_demo.mp4": {
+      "video_file": "/path/to/your/video/folder/cooking_demo.mp4",
+      "video_name": "cooking_demo.mp4",
+      "processed": true,
+      "timestamp": "2025-01-05T14:30:35.123456",
+      "processing_time": 12.4,
+      "video_info": {
+        "duration": 30.0,
+        "segments_count": 6,
+        "file_size": 15728640
+      },
+      "script_info": {
+        "character_count": 245,
+        "segments_count": 4
+      },
+      "matching": {
+        "strategy": "optimal",
+        "matches_found": 5,
+        "metrics": {
+          "avg_confidence": 0.847,
+          "high_confidence_ratio": 0.6,
+          "total_matches": 5,
+          "min_confidence": 0.623,
+          "max_confidence": 0.934,
+          "std_confidence": 0.118
+        }
+      },
+      "matches": [
+        {
+          "video_segment": {
+            "start": 0.0,
+            "end": 5.0
+          },
+          "text_segment": {
+            "start": 0,
+            "end": 45,
+            "text": "Chef begins by washing fresh vegetables under"
+          },
+          "confidence": 0.934,
+          "explanation": {
+            "match_type": "high_confidence",
+            "video_duration": 5.0,
+            "text_length": 45,
+            "text_preview": "Chef begins by washing fresh vegetables under",
+            "keywords": ["chef", "washing", "vegetables", "fresh"],
+            "temporal_alignment": {
+              "video_position": 0.0,
+              "text_position": 0.0
+            }
+          }
+        },
+        {
+          "video_segment": {
+            "start": 4.5,
+            "end": 9.5
+          },
+          "text_segment": {
+            "start": 46,
+            "end": 89,
+            "text": "cold running water in the kitchen sink"
+          },
+          "confidence": 0.823,
+          "explanation": {
+            "match_type": "high_confidence",
+            "video_duration": 5.0,
+            "text_length": 43,
+            "text_preview": "cold running water in the kitchen sink",
+            "keywords": ["water", "kitchen", "sink", "running"],
+            "temporal_alignment": {
+              "video_position": 0.15,
+              "text_position": 0.187
+            }
+          }
+        },
+        {
+          "video_segment": {
+            "start": 9.0,
+            "end": 14.0
+          },
+          "text_segment": {
+            "start": 90,
+            "end": 135,
+            "text": "Next, the carrots are peeled with a sharp knife"
+          },
+          "confidence": 0.891,
+          "explanation": {
+            "match_type": "high_confidence",
+            "video_duration": 5.0,
+            "text_length": 47,
+            "text_preview": "Next, the carrots are peeled with a sharp knife",
+            "keywords": ["carrots", "peeled", "knife", "sharp"],
+            "temporal_alignment": {
+              "video_position": 0.3,
+              "text_position": 0.367
+            }
+          }
+        },
+        {
+          "video_segment": {
+            "start": 13.5,
+            "end": 18.5
+          },
+          "text_segment": {
+            "start": 136,
+            "end": 180,
+            "text": "and then chopped into small uniform pieces"
+          },
+          "confidence": 0.756,
+          "explanation": {
+            "match_type": "medium_confidence",
+            "video_duration": 5.0,
+            "text_length": 44,
+            "text_preview": "and then chopped into small uniform pieces",
+            "keywords": ["chopped", "small", "pieces", "uniform"],
+            "temporal_alignment": {
+              "video_position": 0.45,
+              "text_position": 0.555
+            }
+          }
+        },
+        {
+          "video_segment": {
+            "start": 18.0,
+            "end": 23.0
+          },
+          "text_segment": {
+            "start": 181,
+            "end": 245,
+            "text": "Finally, the ingredients are placed in a hot pan for cooking"
+          },
+          "confidence": 0.623,
+          "explanation": {
+            "match_type": "medium_confidence",
+            "video_duration": 5.0,
+            "text_length": 64,
+            "text_preview": "Finally, the ingredients are placed in a hot pan for cooking",
+            "keywords": ["ingredients", "pan", "hot", "cooking"],
+            "temporal_alignment": {
+              "video_position": 0.6,
+              "text_position": 0.738
+            }
+          }
+        }
+      ],
+      "file_hash": "a1b2c3d4e5f6789012345678901234567890abcdef1234567890abcdef123456"
+    },
+    "/path/to/your/video/folder/nature_walk.mp4": {
+      "video_file": "/path/to/your/video/folder/nature_walk.mp4",
+      "video_name": "nature_walk.mp4",
+      "processed": true,
+      "timestamp": "2025-01-05T14:30:52.654321",
+      "processing_time": 18.2,
+      "video_info": {
+        "duration": 45.0,
+        "segments_count": 9,
+        "file_size": 28445716
+      },
+      "script_info": {
+        "character_count": 245,
+        "segments_count": 4
+      },
+      "matching": {
+        "strategy": "optimal",
+        "matches_found": 3,
+        "metrics": {
+          "avg_confidence": 0.512,
+          "high_confidence_ratio": 0.0,
+          "total_matches": 3,
+          "min_confidence": 0.423,
+          "max_confidence": 0.634,
+          "std_confidence": 0.092
+        }
+      },
+      "matches": [
+        {
+          "video_segment": {
+            "start": 5.0,
+            "end": 10.0
+          },
+          "text_segment": {
+            "start": 50,
+            "end": 95,
+            "text": "Walking through the peaceful forest trail"
+          },
+          "confidence": 0.634,
+          "explanation": {
+            "match_type": "medium_confidence",
+            "video_duration": 5.0,
+            "text_length": 45,
+            "text_preview": "Walking through the peaceful forest trail",
+            "keywords": ["walking", "forest", "trail", "peaceful"],
+            "temporal_alignment": {
+              "video_position": 0.111,
+              "text_position": 0.204
+            }
+          }
+        },
+        {
+          "video_segment": {
+            "start": 15.0,
+            "end": 20.0
+          },
+          "text_segment": {
+            "start": 96,
+            "end": 140,
+            "text": "Birds can be heard singing in the trees above"
+          },
+          "confidence": 0.479,
+          "explanation": {
+            "match_type": "low_confidence",
+            "video_duration": 5.0,
+            "text_length": 44,
+            "text_preview": "Birds can be heard singing in the trees above",
+            "keywords": ["birds", "singing", "trees", "heard"],
+            "temporal_alignment": {
+              "video_position": 0.333,
+              "text_position": 0.392
+            }
+          }
+        },
+        {
+          "video_segment": {
+            "start": 25.0,
+            "end": 30.0
+          },
+          "text_segment": {
+            "start": 141,
+            "end": 190,
+            "text": "Sunlight filters through the green canopy overhead"
+          },
+          "confidence": 0.423,
+          "explanation": {
+            "match_type": "low_confidence",
+            "video_duration": 5.0,
+            "text_length": 49,
+            "text_preview": "Sunlight filters through the green canopy overhead",
+            "keywords": ["sunlight", "filters", "canopy", "green"],
+            "temporal_alignment": {
+              "video_position": 0.556,
+              "text_position": 0.576
+            }
+          }
+        }
+      ],
+      "file_hash": "fedcba0987654321098765432109876543210fedcba0987654321098765432109"
+    },
+    "/path/to/your/video/folder/workout_session.mp4": {
+      "video_file": "/path/to/your/video/folder/workout_session.mp4",
+      "video_name": "workout_session.mp4",
+      "processed": true,
+      "timestamp": "2025-01-05T14:31:07.789012",
+      "processing_time": 15.1,
+      "video_info": {
+        "duration": 38.5,
+        "segments_count": 8,
+        "file_size": 22118400
+      },
+      "script_info": {
+        "character_count": 245,
+        "segments_count": 4
+      },
+      "matching": {
+        "strategy": "optimal",
+        "matches_found": 6,
+        "metrics": {
+          "avg_confidence": 0.743,
+          "high_confidence_ratio": 0.5,
+          "total_matches": 6,
+          "min_confidence": 0.589,
+          "max_confidence": 0.892,
+          "std_confidence": 0.103
+        }
+      },
+      "matches": [
+        {
+          "video_segment": {
+            "start": 0.0,
+            "end": 5.0
+          },
+          "text_segment": {
+            "start": 0,
+            "end": 35,
+            "text": "Begin with a proper warm-up routine"
+          },
+          "confidence": 0.892,
+          "explanation": {
+            "match_type": "high_confidence",
+            "video_duration": 5.0,
+            "text_length": 35,
+            "text_preview": "Begin with a proper warm-up routine",
+            "keywords": ["begin", "warm-up", "routine", "proper"],
+            "temporal_alignment": {
+              "video_position": 0.0,
+              "text_position": 0.0
+            }
+          }
+        },
+        {
+          "video_segment": {
+            "start": 8.0,
+            "end": 13.0
+          },
+          "text_segment": {
+            "start": 36,
+            "end": 70,
+            "text": "including light stretching exercises"
+          },
+          "confidence": 0.756,
+          "explanation": {
+            "match_type": "medium_confidence",
+            "video_duration": 5.0,
+            "text_length": 34,
+            "text_preview": "including light stretching exercises",
+            "keywords": ["stretching", "exercises", "light", "including"],
+            "temporal_alignment": {
+              "video_position": 0.208,
+              "text_position": 0.147
+            }
+          }
+        },
+        {
+          "video_segment": {
+            "start": 15.0,
+            "end": 20.0
+          },
+          "text_segment": {
+            "start": 71,
+            "end": 115,
+            "text": "Now perform twenty push-ups with good form"
+          },
+          "confidence": 0.823,
+          "explanation": {
+            "match_type": "high_confidence",
+            "video_duration": 5.0,
+            "text_length": 44,
+            "text_preview": "Now perform twenty push-ups with good form",
+            "keywords": ["push-ups", "twenty", "perform", "form"],
+            "temporal_alignment": {
+              "video_position": 0.39,
+              "text_position": 0.29
+            }
+          }
+        },
+        {
+          "video_segment": {
+            "start": 22.0,
+            "end": 27.0
+          },
+          "text_segment": {
+            "start": 116,
+            "end": 160,
+            "text": "followed by thirty seconds of jumping jacks"
+          },
+          "confidence": 0.689,
+          "explanation": {
+            "match_type": "medium_confidence",
+            "video_duration": 5.0,
+            "text_length": 44,
+            "text_preview": "followed by thirty seconds of jumping jacks",
+            "keywords": ["jumping", "jacks", "thirty", "seconds"],
+            "temporal_alignment": {
+              "video_position": 0.571,
+              "text_position": 0.473
+            }
+          }
+        },
+        {
+          "video_segment": {
+            "start": 28.0,
+            "end": 33.0
+          },
+          "text_segment": {
+            "start": 161,
+            "end": 200,
+            "text": "Take a brief rest and hydrate yourself"
+          },
+          "confidence": 0.634,
+          "explanation": {
+            "match_type": "medium_confidence",
+            "video_duration": 5.0,
+            "text_length": 39,
+            "text_preview": "Take a brief rest and hydrate yourself",
+            "keywords": ["rest", "hydrate", "brief", "take"],
+            "temporal_alignment": {
+              "video_position": 0.727,
+              "text_position": 0.657
+            }
+          }
+        },
+        {
+          "video_segment": {
+            "start": 33.5,
+            "end": 38.5
+          },
+          "text_segment": {
+            "start": 201,
+            "end": 245,
+            "text": "Finish with a cool-down and final stretch"
+          },
+          "confidence": 0.589,
+          "explanation": {
+            "match_type": "medium_confidence",
+            "video_duration": 5.0,
+            "text_length": 44,
+            "text_preview": "Finish with a cool-down and final stretch",
+            "keywords": ["cool-down", "stretch", "finish", "final"],
+            "temporal_alignment": {
+              "video_position": 0.87,
+              "text_position": 0.82
+            }
+          }
+        }
+      ],
+      "file_hash": "1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef"
+    }
+  },
+  "performance": {
+    "system_stats": {
+      "avg_processing_time": 15.23,
+      "total_requests": 3,
+      "successful_requests": 3,
+      "failed_requests": 0,
+      "success_rate": 1.0,
+      "avg_confidence": 0.701,
+      "uptime": 45.7,
+      "peak_memory_usage": 67.8,
+      "peak_gpu_usage": 89.2
+    },
+    "current_system": {
+      "cpu_usage": 12.4,
+      "memory_usage": 45.2,
+      "gpu_usage": 23.1,
+      "gpu_memory_usage": 56.7,
+      "active_requests": 0
+    },
+    "targets": {
+      "max_processing_time_ms": 500,
+      "target_accuracy": 0.85,
+      "gpu_utilization_target": 0.8
+    }
+  },
+  "summary": {
+    "total_matches": 14,
+    "average_matches_per_video": 4.67,
+    "average_confidence": 0.701,
+    "total_processing_time": 45.7,
+    "average_processing_time": 15.23,
+    "best_match": {
+      "video": "cooking_demo.mp4",
+      "confidence": 0.847
+    },
+    "worst_match": {
+      "video": "nature_walk.mp4",
+      "confidence": 0.512
+    }
+  }
+}
