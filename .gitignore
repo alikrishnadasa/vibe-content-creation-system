@@ -84,6 +84,13 @@ unified-video-system/temp/
 *.m4a
 *.flac
 
+# Large video clip directories
+MJAnime/
+midjourney_composite_2025-7-15/
+
+# Keep essential music files (override above patterns)
+!unified-video-system-main/music/Beanie*.mp3
+
 # Keep essential sample files (override above patterns)
 !sample_*.mp4
 !example_*.wav
