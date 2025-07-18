@@ -62,6 +62,12 @@ cache/
 .cache/
 __pycache__/
 
+# Cached captions and whisper transcriptions
+unified-video-system-main/cache/
+unified-video-system-main/cache/pregenerated_captions/
+unified-video-system-main/cache/whisper/
+unified-video-system-main/cache/neural_cache/
+
 # Output directories (generated videos are too large for GitHub)
 output/
 unified-video-system/output/
